@@ -1,0 +1,26 @@
+{
+  "name": "pi.js",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "rollup -w -c rollup.config.ts",
+    "build": "NODE_ENV=production rollup -c rollup.config.ts",
+    "test": "jest",
+    "lint": "tslint -p .",
+    "format": "tslint -p . --fix",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.1.6",
+    "node-fetch": "^2.3.0",
+    "rollup": "^1.1.0",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-terser": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.18.1",
+    "typescript": "^3.3.3333"
+  },
+  "peerDependencies": {
+    "node-fetch": "2"
+  }
+}
