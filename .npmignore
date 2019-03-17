@@ -3,4 +3,5 @@ node_modules/
 src/
 .*
 ts*.json
+rollup.config.ts
 yarn.lock
