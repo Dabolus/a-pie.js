@@ -1,5 +1,5 @@
 {
-  "name": "pi.js",
+  "name": "a-pie.js",
   "description": "A wrapper around Google Pi API that serves the first 31,415,926,535,897 Pi digits.",
   "version": "0.0.1",
   "main": "lib/index.cjs.js",
