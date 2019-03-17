@@ -1,7 +1,9 @@
 {
   "name": "pi.js",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "lib/index.cjs.js",
+  "browser": "lib/index.iife.js",
+  "module": "lib/index.esm.js",
   "license": "MIT",
   "scripts": {
     "watch": "rollup -w -c rollup.config.ts",
